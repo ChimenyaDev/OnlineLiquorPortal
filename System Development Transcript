@@ -1,0 +1,308 @@
+System Development 
+Fri, Aug 8, 2025
+
+0:04 - Unidentified Speaker
+Good afternoon, everyone.
+
+0:06 - Peter Thembane - ECR
+Good afternoon, everybody. Thank you.
+
+0:10 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Good afternoon. I'm with Mr Pule as well. This side.
+
+0:13 - Peter Thembane - ECR
+Good afternoon, everyone.
+
+0:14 - Unidentified Speaker
+Good afternoon.
+
+0:18 - Peter Thembane - ECR
+And before you joined, I was saying I'm gonna give the organizer until five past If he doesn't join, then Sabata can take it away.
+
+0:31 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Apologies, do you mind just repeating that again?
+
+0:34 - Unidentified Speaker
+I was saying I was gonna, I said earlier I'm gonna keep the organizer until five minutes past two to join. If he doesn't, then you'll take it away since we all.
+
+0:49 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+No, no, no. Actually, he did contact me saying that there's another engagement that he needs to urgently attend to. So he requested that I proceed without him. I thought maybe you were briefed.
+
+1:07 - Peter Thembane - ECR
+No, I'm curious when it comes to this thing, but I guess you can start when you're comfortable. Don't know who else we're waiting for from KZN. Economic Regulatory Authority.
+
+1:22 - Nto Vinkhumbo
+um that's fine uh is uh your team all here um I'm not sure if anyone else is joining from it I was hoping that sherman would be joining this meeting I had asked him to but my mood is in in the meeting uh so I guess it is represented um On On the On the On the user departments actually needs is here. So I think we can proceed.
+
+1:58 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right, cool. Thank you for that. I think straight off the bat, we'll then just get into the nitty gritty. I don't think there's anyone for introductions and stuff. Am I safe to proceed On that one?
+
+2:26 - Unidentified Speaker
+Safe from SAP side.
+
+2:34 - Nto Vinkhumbo
+And from the KZN ERA side.
+
+2:40 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right, cool. Thank you. All right, so just to move to the first item. So today's objectives will then just to review the action items or the deliverables from Tuesday's meeting, and then also just to finalize the technical assessment requirements for next week's engagement. And then number three will then to confirm the integration strategy based On the documentation received thus far and then also to validate the timeline and also the commencement of phase one. Number five we'll look at I think planning planning for more structured, deep technical, deep dive from starting Tuesday. Is everyone fine with that list of items? Yeah, that's fine. So so in the last meeting. We we had action items. And then also we can say probably deliverables. And then. I'll start with from the case it in error side. We also in tow. I've got three items listed next to your name, which is the process flow documentation, which you have shared, and then the sharing of the database documentation. Do you have maybe input or feedback On that one?
+
+5:07 - Nto Vinkhumbo
+It would be our IT that shares that.
+
+5:20 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+So, how can I note it down that the design will be shared for the K2 application by IT related?
+
+5:46 - Unidentified Speaker
+Our IT manager, yeah.
+
+5:47 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Okay, so So the IT manager will be the one that will then share that? Emma, is that correct? Yes, that's correct. No, that's fine. That's fine. We've noted that. And then also, with regards to the technical assessment, the coordination of it by the IT-related team. I think that was also a discussion. I'm not sure if you recall that, Osunto.
+
+6:31 - Nto Vinkhumbo
+Can you just repeat that, sorry?
+
+6:35 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+The technical, I've noted it down as technical assessment coordination. So we're talking.
+
+6:45 - Nto Vinkhumbo
+IT-related is responsible for the system. That we're currently using. So anything that is removed that you need that's technical from us will be from our IT. This is why we have Mahmood and maybe just again, just mentioned that it's IT manager.
+
+7:04 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. All right. It's just that from the last meeting, I've noted that that coordination for the IT related team um will will be why I listed it under yourself to be the coordinator thereof just to ensure that um we we do have access and communication with it related oh okay no just correct it it's the it manager okay no that's fine all right no no then we'll do that um Uh, so then we've got, uh, Mr Marmot, uh, look at, uh, you, you mentioned the SMS gateway settings, um, in, in the last meeting, were you able to then confirm with MTN with regards to their gateway On, um, the ability to do more than just, uh, SMS, like even your WhatsApp and other stuff.
+
+8:15 - Mahmood Lockhat
+Good afternoon. Hi Suvarna, Yes, I had a bit of a busy week, but I didn't get a chance. I know we do have the SMS, like I mentioned, that's available. I'll need to reach out to the account manager just to find out if that option is available. I think now we have to probably look at adding that tool, if that what's up. So I think let me give me till maybe end of today or latest Monday. Just a call. I'll make a call just to find out how we go about getting linked up or if that option is available On MTN.
+
+8:59 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+OK, OK, no problem. Can I maybe suggest through you pull it that we we have a similar setup as with the other team? Where we've got SMS. I'm sorry, a WhatsApp group. Where I think in between meetings we can then just pop quick questions and stuff in there.
+
+9:22 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+Yeah, yeah, yeah, and then it gives us time to address issues before we come to the meetings and all that. Is that acceptable to everyone?
+
+9:51 - Nto Vinkhumbo
+Yes, that sounds great.
+
+9:56 - Peter Thembane - ECR1
+Please, that would be great. If I may say something about the value of the floor. The reason why the system is so delayed is basically to One is our budgeting cycle runs from January to December. But why we can't agree On things is not that we couldn't agree, just with delays. So that's had issues where we've had the money available, but then we can't agree On And I'll tell you where the delays were. One, we had a service provider in Colombia. So meaning you and only meet On certain hours of the day, right? But two, you would have a situation where they would work On something, email it, and they would want comment. And when they email it, and then they'll be a week gone while they're waiting for comment. And they get into the meeting, and then we get community that says, We couldn't really Read the Figma. Can you do it in this fashion or that fashion? And then by that time, the week is gone. And that's just one example, right? So, yeah, I think WhatsApp will help so that we don't have what we used to have before. That's just my two cents.
+
+11:29 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+That's wonderful. So we will then create a group Will anyone, Senator, can we create a group from the side to try and include everybody?
+
+11:37 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Yeah, I think maybe SAB can coordinate.
+
+11:41 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+Yeah, can SAB perhaps coordinate the group for us, so that we can have everybody inside?
+
+11:46 - Peter Thembane - ECR
+I'll ask Tina to do it, yeah, no problem. Consider it done. Okay, thanks.
+
+11:55 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. Just to continue there, and then also, Mr. Mahmood, On your On your list that we've got. Um we also, um. Discussed the infrastructure specification. Um that needed to be confirmed. Um, is there something that, um. We will have to go through the Mr Do you maybe have something ready?
+
+12:32 - Nto Vinkhumbo
+Let me come in for Mahmood. I know he had to step out. Unfortunately, he's working alone in the office today. So he's had to attend a service call. But for the infrastructure, I know Mahmood will be able to confirm, we'll be able to provide the confirmation. So I think as we progress, then that information will come trickling in. But I don't think it's that urgent for now, because we agreed in No, no, All right.
+
+13:16 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right, that's fine. Then I think there's also But it will. That we've got I think it will just be. I think an open question with regards to are there any blockers or any additional support that's probably needed from our end to ensure that the information that we need to receive is timelessly received and so On, because I think what that does is it puts a strain On Pule's timeline and stuff. So I think if we can then, I think, be pulled in at times, I think the WhatsApp that we are able to then just offer that hand to assist.
+
+14:37 - Nto Vinkhumbo
+Yeah, I just I just want to maybe add From what Mr. Timbani has said, there were issues On the communication side and that's what caused delays in the project previously. It was before my time in the entity. This is why I've been allocated to basically coordinate everything. So you have me as a point of contact within the entity and I'll be doing the chasing of IT and whoever else needs to give you the information. But as you're saying, that having the WhatsApp group is that added advantage, gives us that added advantage where everything is communicated to everyone. Yeah, so it will help. Maybe what we also need is the project plan to also be circulated to the team.
+
+15:39 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. No, no, we'll do that. Thank you for your input, Osunto. All right. So from Joxicraft's side, the last document was shared, if I'm correct, that was requested. What was the last?
+
+16:08 - Nto Vinkhumbo
+No, the only thing I have is the Read AI, the minutes of the last meeting, not the actual document. It was presented, but it wasn't sent to everyone. And remember, we needed to add that phase five for the rollout as well. So if we can have that, then I can do that. Maybe even assist with planning out because that one we we also have to be to make some input in terms of um how we're going to do the rollout to to the different um as in getting people to know that there's now this portal and they can do the application so yeah all right with a stakeholder Um, yes.
+
+17:13 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. Um, so the next item will be what we also said is that from today's meeting, we're going to then compile all our all the documentation that needs then to be received by your team and then also to bring focus as well to IT related because we really need to get into the nitty-gritty of what's On offer from the current system. Then also, as you've pointed out, the updated project timeline that will obviously now integrate also the phase five aspect. Those were identified as deliverables from Toxicraft's side. As soon as this meeting is over then, we will then push to to start preparing already for the Tuesday discussion, which will then involve a specific group. And then, but we will guide On that before then. Is that fine?
+
+18:35 - Unidentified Speaker
+Alright, thank you.
+
+18:40 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Yes, yes, that's So, um. The next part of today's discussion will be around the architecture. So the first one under the architecture will be your integration strategy, will be our integration strategy. So we'll just need to review that and also looking at, I haven't Uh, gone down a deep dive into the document you've sent. I'm only going to do that this afternoon. And then I'll be able to then review everything that we've received or collected in all discussions that we've had this week. Then we'll be able to then have a I think a comprehensive. Something to work with to move forward with. And then also, I think what we'll need to do is to just in the back of our heads, I think some of the learning or challenges from even from the previous team of developers, so that we can then ensure that we don't fall into the same holes Now, so the current system analysis basically, what we're talking about there is to review the process and then the database structure for various insights. This will guide us directly and really accelerate us what we are working towards in this new system. Then with regards to the integration, we're talking about the connection points that needs to be then identified with the IT-related system. We need to look at also the automation opportunities that can be presented and then obviously also some process improvements. And then also under integration, we will look at the data migration Hence some of these pain points were mentioned in our last engagement. To ensure that we are seamlessly. Migration strategy. So basically that covers us as far as the integration strategy goes and then we'll unpack that in more detail as well to ensure that we are all aligned and that us as the development team don't deviate and get lost in, because I know from these type of projects that we can get lost at any point. So we need to ensure that we stick to this and we'll also ensure that we provide timeless documentation, even for your own record keeping So as far as the technical stack, finalizing it. So the choices, obviously, so far has been Laravel and React for front end. Then the development environment setup, that will be local. Uh to our environment and then also um a shared cloud development setup where our development team will then um will be able to um collaborate is the word uh we will be able to do collaborative development um On the On On the system and then we've when we're talking about the integration of the database, we're looking at MySQL. And we also, I think, punted for MySQL in the initial meetings against PGSQL. So MySQL is the system, and I am aware that your team is currently using MSS SQL. Is that correct, Mr. Mahmood? Oh, is Mr. Mahmood still up?
+
+24:11 - Unidentified Speaker
+Yes, that's what we're using.
+
+24:14 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Okay, great. All right, great. That's important to note, and then we'll get then more insight with regards to the API architecture of the IT-related system, the current system. That basically encapsulates our technical stack and in understanding exactly what is at play with regards to the implementation details. That will also be something that we are going to be doing a deep dive into. Sorry, I'm not looking.
+
+25:07 - Unidentified Speaker
+Now, moving On to I can't see the end.
+
+25:09 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+The window is at and so On.
+
+25:21 - Nto Vinkhumbo
+Can we also share the documents because prior to the abscondment of the previous developers, we had made a submission of what exactly we would like to see On the portal. I'm going to share that information as well with you. I'll email it just now.
+
+25:54 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+We've created a centralized repository for all documentation also with one of the other groups. Could I maybe also that we consider that as a central repo for the life of the project, where if there's anything that needs to be shared, then everyone will have access.
+
+26:19 - Unidentified Speaker
+Oh, perfect.
+
+26:25 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right, now we'll then manage it from our side. That's fine. So the next item will be the business process. Integration planning. Now, there's different aspects to this one, which is your user-centric approach, and then we've got your license processing, and then also, again, the integration into the current K2 system. Now, looking at our our approach from a development perspective. We're looking at the current workflow to pinpoint the pain points and also how can we improve and create better opportunities as well for optimization. So the next one is how can we derive immediate value From this. From the from the current delivery of the system, and then also. What can be classified as long term enhancements? So as as we as we've put it in the initial meeting that we really want to prioritize getting the system out so so we really need to be able to draw a line and a clear distinction between what is immediate and what is long term. So that is something that will also be placing what we can call, what we can term as feature prioritization, so that we can ensure that we can then keep within a set timeline. Then with regards to our user involvement, throughout the development process. These weekly meetings form part of that, where we'll be able to keep ourselves in check with regards to the direction. And then it obviously ensures that there's continuous, what's the technical jargon? Uh, sprints. Well, it sprints, but it's fine. There's continuous iteration and working On the system without now what Mr Tambani has highlighted, saying that you'd wait for a whole week or two before you are able to give input. And by then, a lot has changed. So we will definitely be avoiding that whole, I then a lot has moved On and so On. And then also, when it comes to your user acceptance, we will be using your operational staff to assist in the user acceptance and then and not only rely On our own internal resources for that. Is that fine from your side, Juliet?
+
+30:12 - Juliet van der Byl
+Yes, good afternoon everyone. Alright, thank you.
+
+30:17 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Yes, that's fine, I I see Mr. Twyla is not in a meeting today.
+
+30:24 - Juliet van der Byl
+Yeah, he actually just stepped out. I actually did send him a message. I'll just OK.
+
+30:32 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+OK, alright, thank you Julia. The process of developing the system to avoid issues later. Alright, so so that's just our emphasis On And then, when it comes to the license process improvement, we'll look at also the public application interface, which we need to ensure is a user-friendly application for submitting and tracking. I think that should basically be front and center to all of this. So hence our team has a dedicated user experience and user interface developer who specializes in those aspects so that we don't have a developer in general or general developer or a back-end developer or some that focuses more On features than On front-end because I truly believe that a bad front-end or bad interaction with the system can also just prove to be a bad investment. So this is something that we will be uh, placing emphasis On, uh, to ensure that, um, when we, uh, when we are dealing with customer facing, uh, aspect of the system and then versus your internal, uh, system that we strike a balance, uh, in that regard. And then, um, with regards to the, the, the the process flow workflow that is more targeting the internal team to ensure that an administrative efficiency. We will be integrating what we call the audit trails and stuff. So to ensure that there's also that level of integrity in the system itself. So that forms part of security and all of that, and reporting and such. So that's also another one that we will be focusing On within the license processing to ensure that it's as optimal as possible. Then also, can I maybe just get clarity because I I have not heard much about a finance team. Is there a finance team that needs to be considered for collaboration On the payment gateway? I do know Ussis Porsche did. Ussis Porsche did. Mention that payments will be directed. Um, uh, back into the KZN era and not, as we pointed out, to the economic development.
+
+34:23 - Nto Vinkhumbo
+Yeah, we will have to engage. Maybe Juliet and I can then engage finance to see if they can allocate a resource to this project.
+
+34:36 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+the project? Yes, yes, yes, I think when the time comes, there's not an immediate need now, but I think as the project is progressing, at some point we'll be able to just raise the hand and say the finance team can maybe then be pulled in so that we can fully also understand how the payment thing works from their perspective, so that's fine. Yeah, and then for the communication channels that will be utilized by the license processing as part of optimization, we're looking at SMS, email and WhatsApp integration. So those will be the channels that we will then build into the system. And yeah, so yeah, in a nutshell. Is everyone happy with that approach with regards to optimizing of our licensing process?
+
+35:59 - Unidentified Speaker
+Yes, happy.
+
+36:10 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right, I think the discussions that are more connected at Sherwin, I'll just skip past those ones. There's one that speaks to him specifically with regards to the IT related team. I'm not sure if I should touch On it or if I might just skip through it, Osunto.
+
+36:52 - Nto Vinkhumbo
+I'm trying to think. Um, OK, no.
+
+36:57 - Nto Vinkhumbo
+Yeah, sorry.
+
+37:02 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+No, I was saying I was saying that it's also a good thing that we we do. The put it into this current platform also for the purpose of the minutes, then when the minutes are distributed and shared On the common cloud platform, then we are, I think, On par in our understanding with regards to where are we and what's the next step, as opposed to skipping It becomes a question mark, but this was not mentioned or discussed.
+
+37:50 - Unidentified Speaker
+OK, OK, let's let's go through it then.
+
+37:53 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Alright cool, thank you for that one. So so now with the with regards to the IT team, IT related team integration strategy. The collaborative development approach with with a set team will be the knowledge transfer planning, where we'll be able to then get insight On the current systems architecture and then also what are the integration points that needs to be defined On both ends. And then in this case, I'm speaking of about your APIs and some of the other data exchange protocols that do exist specifically for the purpose of integration. And then with regard.
+
+39:14 - Peter Thembane - ECR
+I'm not sure it's about a deliberate. She puts herself On hold for an error, but I guess we'll wait.
+
+39:27 - Nto Vinkhumbo
+Yeah, it might be an error On this side. I don't know if you can even hear us. I can't hear you, Sabata.
+
+40:08 - Peter Thembane - ECR
+I think he'll soon realize that he's talking to himself if he is talking.
+
+40:27 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Hi, I'm not sure what happened.
+
+40:31 - Unidentified Speaker
+You appear as On hold. On our side, but you're quiet.
+
+40:36 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+OK, yeah man, I I just paid attention now to this. So I think let me just quickly brush through that those points again, because then I don't think who AI captured that. I think let me maybe split my screen so that I can then at the same time see what's happening On teams. The collaborative development approach will touch On the knowledge transfer with regards to the system architecture and then also the integration points. That's your APIs and other data exchange protocols and then also the coordination between the two teams for for parallel development and then also testing. So that's as far as And then the last item we'll be able to then unpack the integration strategy for that current system. So that covers us with regards to the business process planning. So are we still together? I know I've probably lost the guys from the business team, the operations, the non-technical guys. Can I proceed? Are we still together? Are there any concerns or questions? Am I moving at the correct speed and so On?
+
+42:52 - Unidentified Speaker
+Together still. Thank you.
+
+42:55 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. All right. Thank you, Mr Timbani. And then, um, the next item On On our agenda. I think the second and last one. Also trying to manage the time at the same time. This one will be quick. Then we've got the timeline and also the first phase planning, where the revised project timeline from a four-phase approach to five phase approach. Now, when we look at the first phase, that's the current week and the next week, and then which touches On our assessment and the foundation. So that one we can say is already in motion in these discussions that we've been We've noted here the availability of the IT related team and also to ensuring that we So with regards to the first phase, the key dependency there will just be the availability. And and designs and And then everything that needs to be shared will also just prioritize the shared folder. To to to ensure that we align with that requirement. And then with our next phase, which will be. Think. About, let's say, about a five-week sprint, which is our development and then our integration. We'll be looking at the core system development, which is the customer-facing portal with our chosen technology stack, and then also the second item, will be the integration that we've touched On earlier On in this meeting. That's your APIs and the data protocols. And then we've got the last item will be under phase two is the testing. We're continuous testing with the operational team. Um, well, well, well. Well, basically. Um, so to speak. Um, are we fine with the first two phases in the manner that I've. Highlighted them. We obviously will provide this in more detail and then also. It will also be housed within the central repository for anyone to be able to access at any time. But with regards to the first two phases, it's that one, and then the third phase, the focus will be testing and validation, where we'll look at system testing, user acceptance testing, and then we'll do some load testing and security validations and verifications. And then the fourth one will be preparation of our training, where we'll start putting together some training material and user documentation. Um yeah and then and then um for for phase four and five um we we the the I think the the main item there or the focus will be the stakeholder stakeholder engagement. Now a question to you Mr. Tambani. I'm not sure if you've got access to the same tool or platform that is currently. In in in the SWAT teeny team, they've got a They've got a tool. I'm not sure if it's trainings or what, Basically what it does is they've been rolling they did last year for about 100 licensees. And then this year they're focusing to do, I think, 200, if I'm not wrong. With regards to, do you still remember that conversation?
+
+49:10 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+They're going to do 100 They did two last year.
+
+49:14 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Do you have maybe more information On what it was? Was it a tool or a system or a program that they were rolling out?
+
+49:22 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+It was a program that they and they said if you want to do outreach, it can be used. Because it's already there, they already used the interface with the end user. So then they said they'll just piggyback On it to continue with the engagement.
+
+49:39 - Conference Room (Sabata Mereeotlhe) - Speaker 2
+All right.
+
+49:41 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Do you know of anything similar in South Africa, Mr. Tembani?
+
+49:49 - Peter Thembane - ECR
+Who are they training? Are they training the traders to use the system? I'm just not sure.
+
+49:55 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+It's not related to No, it's system unrelated. They're doing other kind of interfacing with licensees. So the opportunity there is that, look, since these engagements are happening, let's consider or look at slipping in the stakeholder engagement into that existing rollout or marketing or whatever we can call it.
+
+50:26 - Peter Thembane - ECR
+So if I understand correctly, the stakeholder that you need to engage are the traders, am I right? Okay, so at the end of the year, I don't know how far we will go with the system, but at the end of the year we're gonna have probably a platform that will have a lot of traders as in a room is something called price it right. I won't go into the technicalities of who qualifies to be there, but it's probably the biggest opportunity we have to engage with some of the retailers directly. It's not all of them, but yeah, it's probably out of our 4,000 5,000 trading base, between, say, 2,500 to 3,000 customers that we would meet.
+
+51:29 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Then, Osunto, yes, I was going to call you now.
+
+51:34 - Nto Vinkhumbo
+Yeah, we also are in the process of arranging a leaker in Daba It's going to be in December. So again, we targeting about up to 500 liquor outlet owners in for that event. So that's also another platform that we can engage.
+
+52:03 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Yeah, yeah, yeah, yeah. I think the reason why I mentioned this is because I saw that as a great for reusing already the resources that are out there to be able to also just quickly punt this, then the strategy that we can then look at.
+
+52:29 - Peter Thembane - ECR1
+I mean, this is probably going to happen anyway, though, but I I think in that liquor in Daba, since you will have 500 retailers, what I would plead is that you just ensure that all the chairpersons of the different liquor forums are there so that they can take the message back to their members.
+
+53:02 - Nto Vinkhumbo
+Okay, no, we'll note that and we will definitely and then we can then continuously build On that conversation.
+
+53:15 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+And then so that we can ensure that we anticipate. It, uh, correctly to ensure sure that we don't miss those settings. So now in the fourth and fifth, the deployment, the stakeholder and the training phase, we then, in addition, will be looking at the deployment. Did I see a hand up I'm not sure if I saw a hand.
+
+54:03 - Unidentified Speaker
+I don't see one.
+
+54:06 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+OK, alright, thank you and then also the the support and knowledge transfer to the case at an error team. So so so that would then cover us as far as our. Project timeline and then also some planning as far as the phase one is concerned. Now for next week's deep dive meeting, will then be required. The developers of the current system, and possibly, if available, the architect thereof, and then Mr. Sherwin, and then also the technical team, Mr. Mahmood Luntu, other, I would call them technical stakeholders, yourself included, Osunto, and then obviously the team On from JOXICraft. So, what are the objectives of that meeting? Well, then to look at a, to do a deep dive into the technical architecture and do a detailed integration strategy.
+
+56:04 - Peter Thembane - ECR
+Salute and hold again.
+
+56:34 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Thank you, Mr. Tembani. I think when there is a notification or something that pops up On this laptop, then it prioritizes whatever is popping in and then puts this call On hold. I'll need to maybe consider uninstalling this WhatsApp On the laptop, but it's fine. But yeah. So what I was saying was the meeting objectives for the Tuesday technical deep dive preparation will be four items that will look at the technical architecture, the database for the current system, and then also some strategies that we and then look at for continuous integration and I think we'll do some planning or some loose discussions around the testing protocols in that specific platform. So we'll then share some pre-meeting preparation requirements for that meeting. We've drafted a document for that one already. And then we'll then just pop it also into the shared folder. And if I could get assistance, Osunto, with a list of all the emails, addresses of the entire project team, so that we can then add them to the shared folder for the project. Then we'll be able to then, so that everyone can then receive a invite and then gain access to the folder. Is that fine, Osunto?
+
+58:54 - Unidentified Speaker
+Yes, that's fine. I'll send it through.
+
+58:57 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. Thank you. Thank you for that one. So that document will then basically guide the different teams On what needs to be prepared prior to that Tuesday sitting. Then and then some action items, perhaps for some, I don't know, maybe some weekend preparation. I don't know. All right. But yeah, Let me just try and prioritize one what's important. You'll ensure that the IT-related team is available for Tuesday.
+
+1:00:00 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Yeah, I'll make sure Is that fine, ma'am?
+
+1:00:12 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Thank you. Thank you for that one.
+
+1:00:15 - Peter Thembane - ECR1
+And then, um, uh, if Mr Timbani, I didn't mean to cut you off, but there were two items that way you asked for and showing was assigned to them.
+
+1:00:32 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+I don't know if you set up a deadline for sharing On those things if if we set up a a deadline for uh sorry a deadline for sharing for those two things that you mentioned earlier that you needed um that's fine um we'll we'll push them for the creation of the whatsapp today and then I think On that I was into if you can also just add then the cell phone numbers.
+
+1:01:08 - Nto Vinkhumbo
+Um, I've sent through the cell phone numbers to Mr Timbani. I'll just update the file and add the email addresses as well. But yeah, I've sent through the email the cell numbers.
+
+1:01:21 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Okay, great. Thank you. Thank you for that one. Um, I think what we can I've got the cell phone.
+
+1:01:30 - Peter Thembane - ECR
+I have the cell phone number.
+
+1:01:36 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+All right. Thank you. Thank you. So with regards to the two items for Mr. Sherwin, we'll Could I leave it to you, Osunto? Then I'll just send an email that talks specifically to that, to those items that we have requested to your database. And yes, the other item. All right. Thank you. Thank you. And then Mr. Mahmood will then come back to us with regards to the SMS gateway. And then we'll then repair a document from outside for Tuesday that will then speak to the technical architecture of the system. And then also... All right. No, no, I think we've covered some of these things here. So, yeah. Then, Chair, I think back to you.
+
+1:03:22 - Peter Thembane - ECR
+Thank you very much, colleagues, for making the time. Yes, we can go. In the words of Thank you very much, guys. Enjoy your weekend.
+
+1:03:46 - Conference Room (Sabata Mereeotlhe) - Speaker 1
+Thank you.
+
+1:03:47 - Nto Vinkhumbo
+Thank you. Enjoy your weekend, guys.
+
+1:03:50 - Unidentified Speaker
+Thank you. All right.

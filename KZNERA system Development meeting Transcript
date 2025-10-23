@@ -1,0 +1,476 @@
+KZNERA system Development meeting 
+Tue, Aug 5, 2025
+
+0:01 - Sabata Mereeotlhe
+So he's just running a bit late, but he did assure me that he will So you will be running with this meeting?
+
+0:13 - Tinumzi Lubelwana - ELD
+Yeah, I will assist with kicking off this But I am taking minutes.
+
+0:26 - Sabata Mereeotlhe
+Of the meeting, and then, There's a project that is managing currently and we've got a team on site there.
+
+0:55 - Luntu Ndzane
+So this is the... I think Rundo can guide us.
+
+1:23 - Unidentified Speaker
+We can continue.
+
+1:29 - Luntu Ndzane
+I think Rundo is here and you can see today it is here as well. Okay. Mahmood can find us on the way, but we can wait for Rundo to confirm this from her side.
+
+1:45 - Tinumzi Lubelwana - ELD
+Thanks. Thanks, We'll wait So Samatha, you'll be This is more of a technical Uh, good afternoon. Uh, Mahmood is meeting between yourself and the KZNR. So I think that you'll be leading the conversation then between you and KZNR. And then Peter and myself will be just here, or myself, just from a chairing perspective in these meetings. And then Friday's one is mainly reporting to the directorate of KZNR and carrying on with the productivity.
+
+2:31 - Sabata Mereeotlhe
+If I know that's about it. Kindly noted, Leda. Kindly noted.
+
+2:35 - Tinumzi Lubelwana - ELD
+So as soon as Yildo has advised that everyone is here, and start and then we'll kick it off.
+
+3:36 - Nto Vinkhumbo
+Good afternoon, colleagues.
+
+3:47 - Juliet van der Byl
+Good afternoon, colleagues.
+
+4:00 - Luntu Ndzane
+Good afternoon. I think you're coming now. You're not audible.
+
+4:17 - Nto Vinkhumbo
+Oh, am I audible now?
+
+4:22 - Unidentified Speaker
+Yes, we can hear now.
+
+4:24 - Nto Vinkhumbo
+Okay. Good afternoon, everyone. I'm not sure if there's anyone missing from the IT side. Are you the only one joining the meeting?
+
+4:56 - Luntu Ndzane
+Joining, uh, just, uh, running a bit late, and I will join later. I'm not sure I have for showing, and maybe I can, I can call him. Okay, I'll just, I will just put him to remind. Yeah.
+
+5:12 - Nto Vinkhumbo
+Okay, Juliet, and on your side, is everyone? Is it just you?
+
+5:17 - Juliet van der Byl
+It's just me, but I'm just trying to get some call to join you. Okay, all right.
+
+5:25 - Nto Vinkhumbo
+I think that's the team from our side. You can proceed.
+
+5:31 - Tinumzi Lubelwana - ELD
+Thank you, Mr. T. Hi everyone. Hi team.
+
+5:36 - Sabata Mereeotlhe
+Thank you for Everyone that was able to himself for this meeting. Can I maybe just I think to rehash I've got the list here next to me of the team that will be working on. This project. So. Just bringing up my notes, sorry.
+
+6:19 - Nto Vinkhumbo
+I'm sorry about that. Can can we have the meeting recorded.
+
+6:25 - Sabata Mereeotlhe
+It is being recorded. I can share the minutes. Oh, wait, wait, wait. Apologies. I do understand you when you say recorded. Yes, please. I think if someone can just, I think Mr. T, you will be able called the meeting as the host. You see, being in IT, I've got the luxury of deploying AI to take minutes and notes for me. Mr. T, are we sorted in the recording?
+
+7:23 - Tinumzi Lubelwana - ELD
+I'm happy from my side if the meeting is happy.
+
+7:32 - Sabata Mereeotlhe
+Yeah, yeah. I think that wasn't requested that we just record the meeting. Yeah, no.
+
+7:40 - Tinumzi Lubelwana - ELD
+We can record all of them later going forward.
+
+7:45 - Sabata Mereeotlhe
+All right. All right. So from my side, I'll be working with a team of developers. It's as the technical architect, Sabata, and then I've got Technical. Met him in a senior gentleman's that working on also the actual development. Their skills specifically speak to the chosen technology, so they are actually what we call the full stack developers. And then we've got Mr. Pule as the the project manager and I did, I think, submit an apology earlier on for his absence at this point in time, but the minutes are being taken and I will be doing a handover of this meeting to him just so that he's left behind. But I think one of the core messages that I'd just like to in the beginning already just get through is that we are here as Joxeycraft to enhance your capabilities as an organization and not to change the way you work and do all of those things, but rather to leverage, allow you to leverage from the modernization topic when it comes to your system. So I think my preference with regards to how I conduct meetings is that if we can just allow a free flow, feel free to stop me at any point and then we can then just try and respond to questions as we move. Is that fine with everyone?
+
+9:59 - Unidentified Speaker
+Yes, that's fine.
+
+10:02 - Sabata Mereeotlhe
+All right, great. And then thank you as well for the team That you've also shared, and then also, for the, can I maybe just get an understanding of it? Related, um, the, the IT-related team, um, and their specific role. Can I maybe just be assisted? Is that, is that the team that was involved in the building of current active application or what's the situation there?
+
+10:44 - Nto Vinkhumbo
+Yes, IT Related is the current developers of the system that we're using internally so what you guys are building is a customer facing so they did the system that we're using on the back end internally Okay, okay.
+
+11:06 - Sabata Mereeotlhe
+All right. And then how do you see the two systems working?
+
+11:15 - Nto Vinkhumbo
+I think that's what we're going to figure out in these meetings. This is why we'll invite them if we see the need to have them in these meetings. But yeah, we will figure it out as we go on with the development.
+
+11:31 - Sabata Mereeotlhe
+development in this case yes yes all right no no kindly noted thank you for that one now um so so I think one thing that we need to also uh almost do a deep dive into is your current system assessment in terms of um um understanding how your are set up, how do you work almost per se and then also because this will allow us to be able to match the current design that we've got in place and then how do we then almost allow you to basically now form part of that without disrupting or interrupting how your current flow is operationalized at this point in time. Is that fine? If we can maybe just take a snapshot as is of where you are currently as an organization, even from a systems perspective, infrastructure, and all of that. Am I audible?
+
+13:22 - Nto Vinkhumbo
+Yes, you're audible.
+
+13:24 - Sabata Mereeotlhe
+I don't know.
+
+13:25 - Sabata Mereeotlhe
+I was looking at that thing. Or maybe I was directing that question. I think it's more directed to either Mr. Sherwin or Mr. Lockhat. Yes. Or maybe Luntu could also assist on that one.
+
+13:47 - Mahmood Lockhat
+Good afternoon. Apologies for joining late.
+
+13:50 - Sabata Mereeotlhe
+Yes.
+
+13:51 - Mahmood Lockhat
+A problem, yeah.
+
+13:52 - Mahmood Lockhat
+It's Mahmood Lockhat from, he's an ERA IT. Yeah, so basically, currently, I'm sure you know the, I'll start with the development platform. So it's written on K2, and they built on top of K2. So it's on-premise, it's not cloud, it's on-premise. We have a DB server and a front-end. So I think maybe you can just ask me the questions you want, and I can answer. OK, OK.
+
+14:26 - Sabata Mereeotlhe
+And I'll My question is just centered around understanding what your current environment looks like, So that when this new system is introduced in the environment, it does not now bring in an element that now you need to look at the whole skills redevelopment, or you need to look at the whole refresher of technology, or you need to look at... And I think that can cause budget issues and that can cause a whole disruption also from your ecosystem as IT. So we don't need this new tool You follow me, Mr. Muhammad? Yes, I understand.
+
+15:30 - Mahmood Lockhat
+So I think That's what you are tasked to do, to develop. I think that's what I need to understand is Uh, which is, uh, public facing, which will integrate to our current system. To fall too far out, if it does, of what is currently happening and how people are working and stuff.
+
+16:13 - Sabata Mereeotlhe
+with within itself. So this application So whatever it is that you've got currently operating, we need to take that into cognizant to see, okay, this is one, Um, this decision was based on what your online presence is currently entailing, which is a WordPress platform. So now it's also what the lay of the land looks like, And this is where this particular system can actually coexist with other systems so that we can have a comprehensive, and I think I'm speaking almost from a enterprise architecture perspective, also from a planning point that We need to look at all the systems across the board. But I won't go too much into that because it's not the purpose of this meeting, though. So I hope I'm guiding you more to where I need, I think, more of the responses. Is that correct, Mr. Mahmood? Thank you. I'll just Yeah, I don't know.
+
+18:09 - Mahmood Lockhat
+I'm covered. Thanks, Sabata. Okay, thank Luntur?
+
+18:15 - Luntu Ndzane
+Thanks, No, I I think there are only two things, because we're Uh, K2 and SQL. So, my SQL, then. It's, I've noted your end. What will be your system requirements for this one so that we can see whether we have enough space or in terms of infrastructure, but the difference will be just there and see whether can it be able to be integrated to this K2 platform, the platform that you're developing from So I think that we can stick on those, major things. That's my thinking, I think.
+
+19:35 - Sabata Mereeotlhe
+Okay, thank you for that, Don Rinto. Like I said, this project is more directed towards addressing the digitization of licensing. And that's the only question that we'll be responding to. I don't have a clear picture in terms of what you are currently doing with your K2 and your SQL database and so on. Maybe if I can get a clearer picture around that, I'll be able to say, okay, whether this system will be operating independently, or if this system will be able to pull data from your systems, or if we need to push data to your systems.
+
+20:36 - Nto Vinkhumbo
+So I think that that's where we need to find each other so that we are creating a comprehensive solution that ultimately will be able to respond to your um or overarching needs as an organization uh uh um yeah thanks about um yeah I think this the two systems will definitely be pushing data to to each other uh what is currently happening is the licensees or potential licenses come into physically into our buildings, whether it's in the district offices or at the Devon office, if they want to apply for a new liquor license, for instance, or if they need to do a renewal, they also come in physically. And what happens is that the information is then captured internally by our staff with all the information that they're supporting documents that they have to come with. And then from there, all the processing that needs to happen to get either for the license to All of that information is captured manually by our staff into the system that we currently have internally. That we currently have. So I'm thinking that the two systems will definitely be, we have to talk to each other because from your end now, the people don't have to come into the building, into our buildings to capture new applications. And then that information is then submitted They can capture all that information via A, to the entity, and then obviously the system that we have internally will have to pick up. Um, if, if that’s why I’m saying that we need to determine which processes will be run by this online system and which processes—where does that, the system that we currently have—pick up? Do we even continue with the system that we currently have? I think, as we look at the processes of... I hope that clears a bit.
+
+23:20 - Sabata Mereeotlhe
+I mean look at how we No, no, thank you for for that. I think it really helps me a lot in understanding. Your overall IT, I think, let's say, the support that you have currently from IT for your process. Yes, I think there are places where they meet, but I think in a follow-up meeting, I'll be able to then For us, um, the processes, then we start looking at the process, and then also being able to identify where we are, the overlap, where do they overlap, and then also, um, I think even if the conversation can get to a point where we say, um, no, let's, let's maybe focus entirely on this new one, or or maybe let's see how they can code. We can then play with different scenarios. Once I've just prepared all the processes and then in a presentation format, because currently they're quite detailed and I think they're just going to throw us a bit off and then drive us away from the So based on that, there's another question. So I think it me to my next point of the enhancement versus the replacement of those internal systems. So our goal is to build on your existing processes and not to disrupt them, as I've emphasized earlier. So we need to put together some kind of integration strategy, if I can put it like that, that will ensure that we seamlessly transition while we are still maintaining business continuity because the need is now changing how you work. Is everyone okay with that? Because then I think with our next meeting, we can then start pinpointing the different areas where we can then begin our focus and also where I can then bring out and say, okay, this is currently the process that I have, and then how can we look at it from a point of bringing in the other aspects from what there is currently? And how do we not interrupt how you're currently working? And I think Of the biggest questions, that was also part of our previous meeting, was, um, the migration of data, um, because the system supports, will support, um, renewals. But, um, you can't necessarily renew if the data does not exist within. Within the actual process, because if that is not done correctly, then it can really upset things. Is everyone still okay? Is everyone still on Yeah, on my side, I'm okay.
+
+28:09 - Nto Vinkhumbo
+Existing a system, and then I just wanted to share a process flow and I'm going to share it. I'm going to the email. I'm going to send it via email to you as well. But if I can just share, if I can just share so that you can just be able to see exactly what this process is that I was describing. That's fine. Yeah. Let me just find. The screen.
+
+28:46 - Unidentified Speaker
+OK.
+
+28:51 - Nto Vinkhumbo
+OK, can you guys see? My screen.
+
+28:57 - Unidentified Speaker
+Yes, we can see I think.
+
+29:00 - Nto Vinkhumbo
+OK. OK, so so basically this is where in for us the process is starting. I mean when I say us on the system that we currently have, So it's called the ELMS system. So let me just call it that. So it starts with us checking for completeness. I think where you guys will, what you guys will put in is the process flow before this checking for completeness.
+
+29:28 - Sabata Mereeotlhe
+Yes, because you want to do that completeness check. Yes, yes.
+
+29:32 - Nto Vinkhumbo
+Where people are going to complete that information. So I will send this process flow to you because it has all aspects of what we're How we're running. Because I'm thinking even the aspects of the payment as well. Because we want to be able to still keep the individuals that will not quickly adopt the online renewals or online applications. So we want to be able to keep the two so that we're still able to do it for them if they come to us, but this is something that they can also capture online for themselves as well and process the payments as well. So, yeah.
+
+30:26 - Sabata Mereeotlhe
+No, no. I really appreciate that. Now, I've just posted some questions, but I think We, we as we are moving along, we, we will be responding to some of them. I think the first one is, is, is in actual fact almost covered, uh, with regards to what are the specific pain points that your current system has, in terms of, so, so, I do understand that it's running on K2, um, and then it. It's SQL based. Now, I think my next question would be, does it have an interface? Or are you using the full on K2 capabilities to run that process? Or is it a customized process? Is it maybe running on SharePoint? I think those are just some of the that if they can be noted for me, and then we can then maybe just try and bring those forward as we are moving along. And then another point is, from the process that you've now just flighted for us, Osinto, is which areas are covering your process well? You know, you've already already pointed out at the first entry at the entry of where your data almost finds its expression. You've pointed out that our system would probably have to then focus on almost securing the data, if I can put it like that, to ensure that now you are almost removing a warm body that is dependent on, which is your offices. Now, if we are getting rid of that element, now it becomes system driven, it becomes automated. And now you are able to receive applications much more often, much more quicker, and I think more complete. I think that's what the process demands. So I think that's another thing that we'll need to look at as well. I think also these questions will be a continuous theme or will build on as we proceed as well through these different meetings. Until we get to a point where we are all content, we are happy, we will then compile some document To basically cement down the direction and then take it from there. Is, is, is that fine? Uh, I was into, in terms of direction.
+
+33:38 - Nto Vinkhumbo
+Yes, no, that's perfect.
+
+33:39 - Sabata Mereeotlhe
+All right, great, great. Uh, really excited. Um, so, so, another point that I wanted to bring across is the new capability. I think that's a discussion that we will continue almost tapping into as we are moving along. But I really want to emphasize the priority that we need to place on ensuring that we get to as much of a complete system as soon as possible. Because I think the longer we take to get to that point, it can really start creating boredom, it can really start creating a lot of familiarity in the process of doing the work. So I think to keep that excitement, to keep everything on edge, we need to all have that common goal that we need to get to a point where we've got as much of a complete system as possible, where we can start seeing Output now from the system, and then just, that's where we can then start nudging, almost to say, "Okay, what about some an enhancement in this? Enhancement in that?" And then we can start looking at that as we almost get to that point that I've identified. Then, another point. That I'd like us to also just bring across: be the how do we envision the integration with your existing, um, workflow. So now, the process that you flighted is a great start. I was into then we'll, um, in our very next meeting, then we'll be able. I'll be able to take your design. And then what we've currently got, and then look at where do these two meet each other, and then how can these two work together. And that's where we'll then be talking integration the systems. We can, depending on how and the effort required, we can either look at Move on. Alright, so Alright, I'd like to just. OK, so sorry so much.
+
+36:51 - Nto Vinkhumbo
+Uh, some kind of tight In terms of the database design, now, um, yes, the guys, I think, should also share that information with you so prior to the next meetings—before we meet again—you would have had a chance to have a look at what is currently being captured, and yeah, you can be able to map it on your end as well.
+
+37:24 - Sabata Mereeotlhe
+Yeah, I think it's imperative I get fed as much as possible with anything and everything that exists like you have now. And I really appreciate that. If we can then start sharing with regards to the existing architecture, the existing flows, And, um, current, and, and I think also if we can try and respond to some of these questions as we are sharing, um, that I've posed to you on the chatting platform, where we can then look at what are the pain points, whether the integration opportunities, and then also, um, yeah, all of that. As we are sharing. Is that fine, guys?
+
+38:25 - Unidentified Speaker
+All right.
+
+38:28 - Sabata Mereeotlhe
+Yes, no, Much appreciated. Much appreciated. So what are we doing in terms of time? All right. Time flies when you're having fun. All right. Just to... Quickly touch on the architecture. Now the chosen architecture is Laravel 10 specifically and then also react 18. Now Laravel 10 is quite a matured enterprise grade technology and that has full government compliance. And then that's us basically matching or benchmarking against CETA standards. And then also its capabilities. I think one of the ones that Osunto mentioned was its AI capabilities and dashboarding. So those are some of the things that we can really in terms of how matured your requirements are in terms of what the package has to offer. Chances are Because it's not going to make sense to unpack the whole box and say, okay, here's all the toys, let's start playing. Uh, tap And the CEO did also indicate the need for being able to have informed decisions to drive the organization. So this platform becomes a key driver when we speak to that. So these capabilities are there, all of these bells and whistles are It's, it's, it's not gonna. It's not an ideal situation, uh, basically. So, so we want to, basically, approach it, um, carefully, correctly so that we are not overwhelmed. And I can give a case in point, an example where I think in the beginning of the life of my business, we had licenses for CRM, we had licenses Accounting packages: we had a whole host of licenses, but we didn't actually realize that it's not a simple yes/no. Let's switch that on, let's switch this on, let's switch that on. What happened in the end was that now, because of, um, specifically the CRN. To switch off the system because it was taking us away from where we wanted to go as a business. So I think those are just some of the learnings that will be able to benefit the group to say System, it became very demanding from a reporting perspective, but the team was not available to be able to feed the system. Number one, number two, the team was not available either to be able to drive and manage everyone happy with that case or that scenario. Yeah, no, you raise a very important point.
+
+44:03 - Nto Vinkhumbo
+It is very important for us to, it's So yeah, no, As, um, case I definitely support the approach and I think it's always good to be safe when you're building software. It's always good to be safe and for everybody to be satisfied that they understand what it is that is being done. It shouldn't be a matter of Sabata explaining what is happening or Doha explaining what's happening. Everybody should be able to have an understanding and be with what's happening. This is why I included Juliet in this meeting because she is the user of the system. Luntu, Mahmood and I don't work on the system on a daily basis. Juliet and Mr. Thwala are the ones that work on this, that deal with the licenses on a day in, day out. They're the ones who have an understanding of what the frustrations are from our licensees. As well. So they will be able to help guide us in terms of building a system not just for us IT people, but the system for users will be able to use. So I definitely support your approach, Sabata.
+
+45:36 - Sabata Mereeotlhe
+No, no, much appreciated. I was actually scared to ask Mr. Toala's role because I saw that He's not showing up on the list when I was just doing a quick comparison to see exactly who fits in what role. But I think, thank you for the clarity also. I understand that he's working with Juliet. Thank you for that one. All right. Yes. Mr. Mahmood, Luntu, are you guys fine with regards to where we are in our conversation as well with regards to especially the architecture?
+
+46:28 - Unidentified Speaker
+Sabata, I'm fine.
+
+46:30 - Sabata Mereeotlhe
+Okay, great. Great, great. Thank you.
+
+46:35 - Luntu Ndzane
+Yes, Sabata, no, I'm okay. And we'll provide... Relevant information that we might have on our disposal so that you can get an understanding of where we are as well. So, we are. I'm fine as well. Thank you.
+
+46:53 - Sabata Mereeotlhe
+All right, wonderful. Thank you for that. So, um, now I think also a bit on the architecture. There is an element of integration. As well. So, we've looked at the IT-related system and also what it currently is doing through the process. Now, we've also touched on the data migration, not I think that put off to another meeting to have that specific discussion on the migration, its considerations and also what we need to plan for. And now another one would be our infrastructure preferences or constraints, if there is, because I know from Mr Sherwin's last request in a sense, I would differ, but I think that that is a discussion that we can then also look at. Is that fine, Mr. Mahmood? Thanks, that's fine.
+
+48:51 - Unidentified Speaker
+Okay.
+
+48:53 - Sabata Mereeotlhe
+Now, Uh, for that, the infrastructure—per se, What does your current infrastructure look like, your self-hosting infrastructure? What do you currently have in place? And then also, what would your constraints be as well?
+
+49:21 - Mahmood Lockhat
+Thanks, Sabata. So, Sabata, we have a virtual So we have host and we've got virtual machines. So you're gonna tell me the requirements, but we'll meet the requirements. You've got the capacity, the story and the memory to meet your requirements.
+
+49:44 - Sabata Mereeotlhe
+All right, noted. Now with regards to, with the, our systems requirements. There's also external facing components or elements or integration that exists with the system. That's your payment gateways, that's your storage, that's your communication in terms of your WhatsApp, your SMS, And and then those things, and there's also your monitoring—real-time monitoring of the system's performance, errors, bugs, whatever. Um, then there is—yeah, thing that's from the top of my head. Um, so now, um, I know that from a CETA perspective, so I think I need to just understand what your network looks like as well. Yeah. Yes, Mr. Mahmood.
+
+50:55 - Mahmood Lockhat
+Thanks a lot. I know you mentioned SMS. So we do have SMS bundles that we have with MTN. So I'm just saying, just to keep that note that down, that we can also provide the, I think there's that gateway, that SMS gateway settings when you are developing. It's currently with the system that we have ELMS.
+
+51:18 - Sabata Mereeotlhe
+so yeah just note that yeah as well that we do have SMS bundles available okay okay that that's fine um and then um do you do you um I'm not sure if I should assume that you've got um ability to to relay or or send WhatsApp?
+
+51:47 - Unidentified Speaker
+Sorry, I didn't get that. You broke up.
+
+51:51 - Sabata Mereeotlhe
+I'm saying I'd like to understand if you have WhatsApp capability to be able to send WhatsApp messages through the same platform.
+
+52:08 - Mahmood Lockhat
+No, but I think we can, you know, Inquire about it. I don't currently don't have that interface.
+
+52:17 - Sabata Mereeotlhe
+OK. All right. All right. No, that's fine. That's something that we can then I think, like you said, let's just keep a pin on it and ensure that that doesn't sort of filter out as we are moving along. Now, with regards to the question, I was hoping that on their network or are you open up on the internet? No, no, we open up.
+
+53:16 - Mahmood Lockhat
+We're not going via CETA. So for us, and I But yeah. You'd be All right.
+
+53:38 - Sabata Mereeotlhe
+All right. And then from an infrastructure perspective, I'll just take for granted that your team is solid when it comes to that. Is that a correct assumption?
+
+53:55 - Mahmood Lockhat
+Just to be more specific. Infrastructure, are we talking about the server infrastructure?
+
+54:05 - Sabata Mereeotlhe
+Yeah, um yeah, no, no, we are. Um, I'm speaking. Yeah, I'm, I'm, I'm speaking. Uh, the infrastructure I'm referring to would obviously be one of them: is your virtualization. Um, and then, uh, your, uh, your security layer. Firewalls and all of these things. Any more your... Ainto,
+
+54:33 - Nto Vinkhumbo
+Yeah, no, hi. Are we not going to be hosting?
+
+54:45 - Sabata Mereeotlhe
+Yes. That is the plan. I'm just sort of responding to the initial question That, um, um, Mr. Sherwin had, uh, or his request to do self-hosting.
+
+55:04 - Nto Vinkhumbo
+Um, yeah, I'm asking because, in terms of doing a proper, uh, performance and testing, and ensuring that we actually do have the capacity to able to, to, to. To carry all of this, and I mean the transactions that will be running on this online portal, I don't know how. I was, I was, I am of the view that this is something that should be, you know, on the cloud. I know, I know that. I agree with you. You will have my head for this, but I really feel. This should be hosted.
+
+55:54 - Sabata Mereeotlhe
+This should definitely be hosted.
+
+55:58 - Sabata Mereeotlhe
+I agree with you and I'll share why. I agree with that approach because then you've got something to benchmark against, number one. Then also, almost from a best practice perspective, And I think the hand-holding was also a proposal that I did pitch, but I just want to make sure that I'm not going against the grain and I'm not forcing anyone's hand into something that is not part of maybe your said culture or something. I think if I've got the support of that we initially do the hosting and then allow transfer, then I would 100% support that approach.
+
+57:09 - Nto Vinkhumbo
+Mahmood, that. What do support you Yeah, also think? I I think we should start there. And then we'll be able to get our environment ready if we ever need to take over now and host it from our environment.
+
+57:27 - Mahmood Lockhat
+Thanks. I also do support. Let's start there. And like Sabata said, we can move it over to an on-premise. But I think the development time also will be quicker on the online platform. And the tools that they're using and stuff like that. So maybe it's premature now to say, let's move it there. Let's work on it on-premise, but let them rather start there and then we can always move it across. But thanks.
+
+57:59 - Sabata Mereeotlhe
+All right. Mr. Tinumzi has just posted a Christmas message on the chat there.
+
+58:17 - Nto Vinkhumbo
+Thank you. Thank you, Mr. Tlouzi.
+
+58:21 - Unidentified Speaker
+Yeah.
+
+58:23 - Nto Vinkhumbo
+Thank you. This actually gives us now, you know, real backing for hosting for at least six months and then we can make decisions and get everything ready if we actually will have the capacity to be able to support the environment from, you know, hosting it in our premise. But yeah, thank you so much.
+
+58:51 - Sabata Mereeotlhe
+Just to move along, I'm a bit weary of the time as well. I don't want to keep everyone here. So just from a stakeholder role definition, I'd just like us to map the responsibilities clearly. From the KZN era technical team, we have Mr. Charles, Mr. Mahmood, Mr. Luntu, and I think Mr. Sherwin being the IT lead, then I guess then all the infrastructure and technical architecture approvals would then be pushed through him. Is that correct?
+
+59:39 - Unidentified Speaker
+Yes.
+
+59:41 - Sabata Mereeotlhe
+Alright, great and then for Mr. Mahmood and Luntu, would I be wrong in assuming that the configuration requirements and your system administrative needs will then be something that they will be handling?
+
+1:00:00 - Unidentified Speaker
+That's correct.
+
+1:00:03 - Sabata Mereeotlhe
+OK, wonderful. Then from the IT related team, I think as and when the current system knowledge transfer and possibly also the integration planning is something that will then reside with them. Is that fine?
+
+1:00:26 - Unidentified Speaker
+Yes, that's correct.
+
+1:00:29 - Sabata Mereeotlhe
+OK, OK, cool. Now from the business side, The KZN Arab business team, we've got Juliet, Lungile, and Mr. Thwala. So the licensing process overall and the workflow, is it okay that I would be able to then get the team then to speak to her with regards to that?
+
+1:01:08 - Juliet van der Byl
+Thank you. I think, yes, you can, but I think it's a matter of us working with Mahmood and Lunsukho because they understand the system as well.
+
+1:01:24 - Sabata Mereeotlhe
+Okay, okay. No, that's fine. We can then just bridge those two responsibilities from a technical to a business perspective. Thank you for that one. And then for Lungile, let me just remind myself here. Okay, great. So for Mr. Sabaya, can we maybe sort of, rely on Mr. Sibaya for compliance features and also the enforcement requirements.
+
+1:02:08 - Nto Vinkhumbo
+Yes, no, Mrs. Sibaya is responsible for the compliance.
+
+1:02:13 - Sabata Mereeotlhe
+Oh, my apologies, my apologies.
+
+1:02:15 - Nto Vinkhumbo
+No problem, it's my fault actually for not specifying in the email.
+
+1:02:22 - Sabata Mereeotlhe
+Okay, okay. And then from Joxiecraft side, we will then be the technical development and architecture, your system integration, and also a question mark next to data migration, and then also the training and the knowledge transfer, and also the overall planning and also the project management. Okay. Yes. No, that's fine. That's fine, Mr. T. Thank you. Yes.
+
+1:03:31 - Nto Vinkhumbo
+Can we ask that you share the the presentation, the document that you shared at the meeting last week, because I remember that we had spoken about the last phase that we want included, which is the one that will focus on now getting the system out there to the people, getting training and adoption, basically, of the system.
+
+1:04:05 - Sabata Mereeotlhe
+Yes, no, no, I'll do that shortly after this meeting. I'm just in between systems, but it's fine. I'll do that for you. And then I'll ask Mr. Poulet just to finish up and update the document because there were some changes that needed to go through the document based on the discussions. So you'll receive that.
+
+1:04:37 - Unidentified Speaker
+Okay.
+
+1:04:44 - Sabata Mereeotlhe
+All right. All right. So now with regards to the project approach, now I'm just stepping into the shoes of Mr. Pule and I hope I do him justice. So, with regards to the project approach and timelines, uh, we're looking at about four for the assessment and laying of the foundation of this project. We're looking at giving it about two weeks or so, and then, I think, the finer details of the timelines, uh, once they. And also the proposal from Mr. T that we need to just bring in another meeting this week just to sort of fast track as well. Because I know there's a bit of pressure as well in that regard. Then there's your requirements that we will be finalizing on through these processes They are available from Mr. Pooler's side. We'll be able to then share those as well Our architecture design, and then with the phase two, which is the actual development and integration, we can estimate five weeks upwards, and then it will depend on the complexity, obviously, because then we I will be looking at three, uh, well, let's just say two—for now—two aspects, which are the core of the system and then also the integration. So, those are the two main aspects that we'll be focusing on. Then, in the third phase, we will look at the testing and the validation. But it's more internal facing, our team, your team, and also performance validations will do that. So we can estimate that two to four weeks, depending on how many back and forths we have. But the third phase will, I think, largely be informed by what happens in the second phase, the actual development. So yeah, we will need to really ensure also that our first phase really ties down a solid architecture or plan that we can then move forward on, because then it will cut down a lot of time on other phases, as we proceed. And then we have the fourth phase. We can give it between a week and two weeks for that actual deployment and training. Then we've also got the optional phase five as requested for stakeholder engagement. We will then have the extended stakeholder consultations and then also where there was additional feature requests. I think this will be the best place then to look at it. And then also enhanced training programs that can then be conducted in this phase. Now just a bit on on the training, we will then conduct a train the trainer sort of approach. And then with regards to the stakeholder engagement, that's something that we really need to just unpack and understand what the requirements would be from our end so that we can then Support yourself and your team. I was enjoying, with regards to ensuring that, um, that phase becomes a success as well. Is that, is, is, is everyone still fine and happy with the progress of the meeting and where we are? Are there any concerns? And questions.
+
+1:10:02 - Mahmood Lockhat
+No concerns of my side.
+
+1:10:10 - Sabata Mereeotlhe
+I'm covered.
+
+1:10:12 - Sabata Mereeotlhe
+Okay. Wonderful. Wonderful.
+
+1:10:13 - Luntu Ndzane
+I'm covered as well.
+
+1:10:18 - Sabata Mereeotlhe
+Thank you. Thank you. Osunto, I think there's a message for you on the chats there. Yeah. So I think one of the key things that we we want to emphasize on and and I think this is us basically closing now or wrapping it up. So so one of the things that some of the things that we want to really emphasize on from a communication is that ours is a collaborative approach. We shouldn't be considered us and them. We should be seen rather as that we are joining your team and we are not there to be seen as outsiders. So you can be rest assured that also that from an experience perspective, we have what it takes in order to ensure a successful delivery on this project and so on. And then also we have worked on the, we've had enough exposure and experience on the Northern Cape liquor system. So a lot of that experience we will be able to then introduce into this project as well. Also, when we talking about Technology. We, we, we also want to bring that comfort. That, um, the, the chosen technology stacks, or stack rather, is, is, is something that has, that I've seen personally across multiple government entities. Um, and, um, and, and, and really, I think, um. Laravel and React has really cut its teeth when it comes to proving itself with regards to implementing or being utilized to implement successful platforms. So what are the things that we maybe need to look at? Always at best try to avoid technical jargon in explaining things. I'll always choose the long way to explain something and hence I think I know my meetings tend to run a lot over time. So I think if you can also just budget in that we are going to Sabata's meeting. So let's just budget maybe another 30 minutes because I think my mind is to ensure that we are all on board. We are all fully aware at all times of what are the promises that are being made and then also what are the constraints. And then I think from a client and supplier or service provider perspective. Now that relationship would exist between myself and Chinumzi. Now I've also got an obligation towards him to ensure that we don't do any budget overruns and stuff like that. So I've still got that responsibility towards him to ensure that we keep to timelines and we keep to budgets. So I think that's just some of the things that we need to be cognizant of And I think something that I'd also like to request personally is avoiding to compare with other The Joneses that know, but these guys, they are doing this and these guys, they are doing that. Why can't we do that? So let's try and focus on or narrow what we want to achieve and get it out as quickly as possible. Before, like I said, boredom sets in because I think we will be finding ourselves in a very compromising place. If that starts happening. Now, from a facilitation perspective, I think I'd like to also just give a quick run of that. I'll always ensure that I listen I think that that's one thing that I'll always ensure myself and my team that we listen first and then allow yourselves to express your current challenges before proposing any kind of solution. And then if there's anything, then we'll try and seek through clarifying questions so that we can really show that we are part of you, we are part of your team, and that we are not an outside entity that has come here to come and deliver this box. Because I think it really will go a long way if we approach it from a relationship point of view. More than this becoming transactional. Yeah. Now, is there maybe any other questions before I move towards closing or concerns or anything that you might maybe want to share, even if it's unrelated to the project?
+
+1:17:17 - Unidentified Speaker
+Nothing on my side.
+
+1:17:21 - Mahmood Lockhat
+Okay. Nothing from my side as well.
+
+1:17:27 - Luntu Ndzane
+Yeah, no, nothing to share but I think I will have a question for next week because you indicated that you did it for the liquor board there and then maybe we'll just I will just for the payment gateways, and I will ask those questions, like maybe you can clarify to me whether, how it's working on their side with the fire, with their finance team, as an entity, in terms of whether it's, it's get—you know, when they pay, are their finance team happy with way it went to their statements, and then it linked to the Licensee, or like, just if you can, when you come back. But you can bring me on that one. Thank you.
+
+1:18:17 - Sabata Mereeotlhe
+Right? Yeah. No, no, no, no. Um, we'll do. We'll do. Thank you for that one. Um, Juliet, thank
+
+1:18:27 - Juliet van der Byl
+Um, on my side, I just think that, um, some of the team from ERA, you're quite faint.
+
+1:18:35 - Unidentified Speaker
+You sound distant.
+
+1:18:38 - Juliet van der Byl
+Yeah, my laptop is a problem. I don't know.
+
+1:18:41 - Unidentified Speaker
+No, it's better now.
+
+1:18:42 - Juliet van der Byl
+Okay.
+
+1:18:44 - Juliet van der Byl
+Yeah, I'm saying in terms of the ERA, okay, we don't want to say your team and our team, but I just think that us as the economic regulator, we need to come together and also just have like a little meeting in terms of what our idea is of what we want this I am really in this position and I'd like all the role players to be And then I also have a concern that we are looking at processes in terms of, you know, changing the renewal process. So that should be a discussion where we should Prior, so that we can see how the new to look like so that, you know, it's something a discussion that has taken place. You know, what we want to achieve.
+
+1:20:01 - Sabata Mereeotlhe
+Thank you for that. I really appreciate that. And yes, most definitely. We will definitely look to achieving that. And then, Mr. Peter and Mr. Thwala. Anything from your side?
+
+1:20:24 - Peter Thembane - ECR
+Thanks, Sabata. Thank you. So this sounds promising than the previous supplier.
+
+1:20:32 - Sabata Mereeotlhe
+Great. Thank you. Thank you.
+
+1:20:37 - Unidentified Speaker
+Hi, Sabata.
+
+1:20:40 - Mr Thwala
+We hope, yeah, it has all been positive and we hope that the system is going to solve the problem. We've had a lot of problems with the current system, so we're hoping for the best.
+
+1:20:54 - Sabata Mereeotlhe
+Yes. No, no. That's why we are here. That's why we are here. All right. Now, thank you, everyone, for your input. Now, I think just as some immediate follow-up from here on, I think there is still a need for further discussion around the topics that we had today. I'll go and prepare some more based on today's discussions, and then we can then raise the bar in the next meeting. But I think immediately after that meeting, I'm going to request, let's call it a technical assessment meeting where we can then schedule time with the IT related team and Mr. Sherwin and also the rest of the Auzinto, Mahmood and Lunt where we can really look at the technical aspects of the systems requirements. And then we will have another meeting where we can then unpack in detail the business process. I think in that meeting, we can then bring in Juliet, Lungile, Mr. Toa, and then Mr. Tenbani. I don't have. Do I have Mr. Tenbani on this list? No, I don't have Mr. Tenbani on the list. Mr.
+
+1:22:55 - Nto Vinkhumbo
+Tenbani Naidu are from SAP.
+
+1:23:02 - Sabata Mereeotlhe
+Oh yes, I don't have email addresses here that I can Okay, I see it now. Thank you for that one. Where is GCN? Sorry, sorry, Mr. Tembani.
+
+1:23:18 - Peter Thembane - ECR
+No, don't stress. It's an internal, what do you call it? It's the email addresses.
+
+1:23:28 - Unidentified Speaker
+But it's actually supposed to be atza.apinpave.com.
+
+1:23:34 - Sabata Mereeotlhe
+Okay. Okay. No, no, no, no. I've seen you on the emails. My apologies. I've linked you to the KZN error team. Yeah. Thank you. Thank you. Thank you, sir. All right. Then, yeah. And then once we've then have had that business process review, then we can look at the the infrastructure where I would like to basically bring in Mahmood and also Luntu into that discussion. Osinto, I think you're more than welcome there. And then where we can then look at, well, give you an outline of what the infrastructure would look like, The plant infrastructure, and then also, I think, just to wrap up the post-meeting action items, we can then look at the updated project plan, where Mr. Pooler will be able to take everyone through that. And then, when we can, we can then start putting our documentation together. Technical, all of these documents. Is that approach fine with the team?
+
+1:25:09 - Unidentified Speaker
+Yes, that's fine with me.
+
+1:25:12 - Sabata Mereeotlhe
+All right. Thank you, Osunta. That's all from me for now. Uh, is, is? Yeah, I think that's all for me for now. And then we can, then, um, uh, put down, uh, the next date. I'll just look at, um, how the, the other meetings are planned, and then, um, but I think from your side, uh, maybe you can then assist us with, with, with scheduling that, um, that follow-up meeting. Now, this is now outside of our weekly. Can call it an extended weekly meeting where we now basically break out of this one because we've ran over time and this specific meeting needed more time. So if we can maybe just still within this week, if we can then look at another day, then to see where we all are available and then we can then take it From the beginning, I think, since the technical guys are here, we can agree on when we can meet, and then can make arrangements.
+
+1:26:37 - Nto Vinkhumbo
+Um, what do you think? Can we confirm while we hear that? For me, it's only Thursday. We, I have another engagement. But Friday I'm available.
+
+1:26:56 - Sabata Mereeotlhe
+I'm also available Friday.
+
+1:26:59 - Sabata Mereeotlhe
+Yeah, let me just open up my calendar.
+
+1:27:12 - Nto Vinkhumbo
+Oh, we can do tomorrow if that's not too soon for you.
+
+1:27:18 - Sabata Mereeotlhe
+Yeah, it's going to be a Too soon, because I'm just gonna have to wrap my head around this meeting, and then bring it into our conversation of today—I mean, to the planning—and then have an outcome. So, I also would appreciate it if we could do it for Friday. I know, okay, the other meeting is on Thursday, so it's fine—so, Friday. Will, will work just fine.
+
+1:27:50 - Nto Vinkhumbo
+Um, are we doing morning, Friday morning, or in the afternoon?
+
+1:27:54 - Sabata Mereeotlhe
+Um, yeah, no, I'm, I'm open. I'm open Friday.
+
+1:28:00 - Nto Vinkhumbo
+So, so, we, we do morning, my wood, because I know 12 o'clock you won't be available.
+
+1:28:06 - Mahmood Lockhat
+Yeah, it's fine. Morning is fine—early morning, nine o'clock, ten, nine. That's fine. No. 09 is fine.
+
+1:28:14 - Sabata Mereeotlhe
+Yeah, I think. Yeah. Just just to note, I was into the the meeting. That that will have Friday is a follow up of this specific meeting prior to the technical review assessment meeting that we will have. Will probably happen in the new week since this one is happening on Friday.
+
+1:28:47 - Nto Vinkhumbo
+Okay, and it doesn't need to have Juliet and Mr. Twyla in it.
+
+1:28:54 - Sabata Mereeotlhe
+You're more than welcome because it's still going to be an overall discussion where I'm going to now pin down on specific things that I've picked up and then because I'll still need them to be part of that meeting. Is that fine with them?
+
+1:29:14 - Nto Vinkhumbo
+Oh, OK.
+
+1:29:18 - Nto Vinkhumbo
+Today it is Friday, fine for you.
+
+1:29:27 - Sabata Mereeotlhe
+Much appreciated. Can I maybe then hand over to you, to Mr. Tembani?
+
+1:29:43 - Peter Thembane - ECR
+Thanks, colleagues, for joining. So the next meeting will be on Friday. I am not sure if I will join, but we will try. I haven't looked at my calendar, but that's not important. 10, yeah, 10 should be fine. I've got a meeting that ends at 10, so I can join. I'll also let Tina know that we're meeting again. I think colleagues, are you giving me power to close Sabata?
+
+1:30:11 - Sabata Mereeotlhe
+Yes, please. I'll be the sun in the house.
+
+1:30:17 - Peter Thembane - ECR
+Thank you very much for letting me close. Colleagues, thank you for making the time. Yeah, I like this approach. It feels longer, but we might be having long meetings but it might be for a short time overall. Because in the past, we've always prioritized short meetings, but many years later, we're still here. So with all that being said, thank you very much, colleagues, for making the time. Have a good afternoon.
+
+1:30:53 - Nto Vinkhumbo
+Thank you. Bye.
+
+1:30:55 - Unidentified Speaker
+Thank you. Bye.

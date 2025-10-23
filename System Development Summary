@@ -1,0 +1,60 @@
+System Development 
+Fri, Aug 8, 2025
+
+Summary:
+
+Key objectives were outlined, including a review of previous action items and finalizing technical assessment requirements. Nto Vinkhumbo confirmed that the IT manager would share documentation related to the K2 application, emphasizing the need for coordination with the IT team. Mahmood Lockhat reported he had not yet contacted MTN regarding SMS gateway settings but planned to do so soon.
+
+The discussion highlighted the necessity for clear communication and documentation sharing among team members, leading to a proposal by a conference room participant to create a WhatsApp group for quick communication, which was supported by Nto and Peter Thembane. Peter noted that delays in system development were largely due to communication issues and the budgeting cycle.
+
+The integration strategy was emphasized, focusing on reviewing architecture and identifying connection points with IT systems while learning from past challenges. The importance of distinguishing between immediate value and long-term enhancements was discussed, along with the need for user involvement and a user-friendly interface. The project timeline was revised from a four-phase to a five-phase approach, concentrating on assessment and core system development in the initial phases.
+
+A conference room participant also inquired about a tool used by the eSwatini  team for outreach, which aims to engage traders, and mentioned an upcoming event to connect with retailers. The meeting concluded with plans for a deep dive session next week to address technical architecture and integration strategy with key stakeholders.
+
+
+Chapters & Topics:
+
+Action Items and Technical Assessment Review
+The discussion on the meeting's objectives was led by a conference room participant, focusing on reviewing action items and confirming technical assessment requirements. Nto Vinkhumbo indicated that the IT manager would be responsible for sharing the necessary documentation. Mahmood Lockhat acknowledged his busy week but committed to contacting MTN about the SMS gateway settings and exploring additional options like WhatsApp integration.
+* Review of action items and deliverables from the previous meeting.
+
+Communication and Coordination for System Development
+A suggestion was made to establish a WhatsApp group to facilitate communication between meetings, a proposal that received positive feedback from Nto Vinkhumbo and Peter Thembane. Peter explained that delays in the system development were largely due to communication challenges and the budgeting cycle. Nto emphasized the importance of coordinating communication and ensuring timely information flow. The team agreed to compile necessary documentation and focus on IT-related aspects for the upcoming discussions.
+
+Integration Strategy and Technical Stack Overview
+The integration strategy was outlined, focusing on reviewing the architecture and identifying automation opportunities. The technical stack choices were mentioned, including Laravel and React for the front end, and MySQL for the database, while noting the current use of MSS SQL by Mr. Mahmood's team. Additionally, the need for timely documentation and a centralized repository for project-related documents was emphasized by a conference room participant.
+* Integration strategy based on received documentation.
+
+System Development and Feature Prioritization
+The need for feature prioritization was highlighted to ensure timely delivery of the system, while also involving users throughout the development process. The discussion included the integration of a dedicated user experience developer to enhance the front-end interface and the importance of administrative efficiency through audit trails. Nto Vinkhumbo mentioned the need to engage the finance team for collaboration on the payment gateway as the project progresses.
+
+IT Team Integration Strategy and Project Timeline
+The collaborative development approach for the IT team was outlined, highlighting the need for knowledge transfer and integration points like APIs. The project timeline was revised from four phases to five, with the first phase focusing on assessment and the second on core system development and integration. Continuous testing with the operational team was also mentioned as part of the development process.
+* Communication structure and tools for team collaboration.
+
+Stakeholder Engagement Strategies
+A conference room participant asked Mr. Tambani about a tool used by the eSwatini  team for outreach, which had previously engaged 100 licensees and is expanding to 200. Peter Thembane confirmed that the program is designed for trader engagement and mentioned a key opportunity to connect with 2,500 to 3,000 retailers at the "price it right" event. Nto Vinkhumbo also noted an upcoming liquor event in December targeting 500 outlet owners, which could serve as another platform for engagement.
+
+Project Timeline and Technical Deep Dive Preparation
+The project timeline was outlined, emphasizing the importance of the deployment and training phases. The next week's deep dive meeting will involve technical stakeholders to discuss the system's architecture and integration strategy. Assistance was also requested from Osunto to compile email addresses for the project team to facilitate communication.
+* Project timeline and planning for the first phase of the project.
+
+
+Action Items:
+
+* Nto Vinkhumbo will ensure that the IT manager shares the design for the K2 application.
+* Mahmood Lockhat will reach out to the account manager at MTN to confirm the availability of options beyond SMS, including WhatsApp.
+* The conference room participant will coordinate the creation of a WhatsApp group for communication between team members.
+* Nto Vinkhumbo will send the email with the cell phone numbers and email addresses of the entire project team to the conference room participant.
+* The conference room participant will prepare a document outlining the technical architecture of the system for the Tuesday meeting.
+
+
+Key Questions:
+
+* What are the action items or deliverables from the previous meeting?
+* Is there a finance team that needs to be considered for collaboration on the payment gateway?
+
+
+Notepad:
+
+* No notes

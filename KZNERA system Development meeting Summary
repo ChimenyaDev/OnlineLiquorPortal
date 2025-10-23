@@ -1,0 +1,74 @@
+KZNERA system Development meeting 
+Tue, Aug 5, 2025
+
+Summary:
+
+The KZNERA system development session focused on the ongoing project and the collaborative efforts required for its success. Tinumzi Lubelwana confirmed his role in facilitating the meeting, while Sabata Mereeotlhe discussed the importance of teamwork, particularly with the on-site team. Luntu Ndzane suggested waiting for Rundo's input before proceeding, and Nto Vinkhumbo and Juliet van der Byl checked on their teams' attendance.
+
+Sabata elaborated on the KZNERA project, emphasizing the goal of enhancing organizational capabilities without disrupting existing workflows. Nto provided insights into the current IT system, highlighting the need for integration between the new customer-facing system and the existing internal system. Sabata stressed the importance of utilizing K2 capabilities and automating processes to improve efficiency, while also ensuring that the system remains engaging throughout its development.
+
+The selection of Laravel 10 and React 18 for the KZNERA system was discussed, with Sabata highlighting their maturity and compliance with government standards. He underscored the need for team availability and user involvement, specifically mentioning Juliet and Mr. Thwala's direct experience with the system. Mahmood Lockhat provided an overview of the current virtual hosting infrastructure, confirming its capacity to meet system requirements and supporting the idea of starting with an online platform for quicker development.
+
+Sabata outlined the project approach and timelines, indicating a two-week period for assessment and foundation laying, followed by a five-week development and integration phase, and a testing period of two to four weeks. He emphasized the importance of collaboration and communication, reassuring the team of their capabilities based on previous projects. The discussion also included the need for a follow-up meeting, with Friday morning proposed as a potential date, which was confirmed by several participants. The group agreed on the necessity of continued collaboration and the importance of the upcoming technical review assessment.
+
+
+Chapters & Topics:
+
+KZNERA System Development Coordination
+Tinumzi Lubelwana took responsibility for starting the meeting and noted that he would be taking minutes. Sabata Mereeotlhe highlighted an ongoing project with a team on-site, while Luntu Ndzane suggested waiting for Rundo's confirmation before proceeding. Nto Vinkhumbo and Juliet van der Byl checked on the attendance of their respective teams.
+* Current System Assessment and Integration
+
+KZNERA System Development Discussion
+Sabata Mereeotlhe outlined the objectives of the KZNERA project, focusing on modernization while maintaining current operational processes. Nto Vinkhumbo clarified that the existing IT team developed the internal system, which will need to integrate with the new customer-facing application. The discussion highlighted the importance of understanding current workflows to ensure a seamless transition.
+
+KZNERA System Integration and Development Discussion
+Sabata Mereeotlhe discussed the integration of K2 capabilities and the importance of automating processes to improve data handling. He stressed the need for a complete system to keep the team engaged and motivated. Nto Vinkhumbo confirmed the importance of sharing existing database designs to facilitate mapping and integration in future discussions.
+
+KZNERA System Architecture and Implementation Insights
+Sabata Mereeotlhe outlined the decision to use Laravel 10 and React 18 for the KZNERA system, noting their enterprise-grade quality and alignment with CETA standards. He pointed out the significance of the platform's AI capabilities and dashboarding features for informed decision-making. Mereeotlhe cautioned against overwhelming the team with too many features, drawing from his past experiences with CRM and accounting systems.
+
+Team Collaboration and User Involvement in KZNERA System Development
+Sabata Mereeotlhe raised concerns about team availability and the need for everyone to be informed about the development process. Nto Vinkhumbo agreed, stressing the importance of user understanding and involvement, particularly from Juliet and Mr. Thwala, who handle the system's licenses daily. This approach aims to ensure the system is built with user needs in mind, rather than solely from an IT perspective.
+
+Infrastructure and Integration Discussion
+Sabata Mereeotlhe emphasized the importance of understanding the current infrastructure and integration elements, including payment gateways and communication channels like SMS and WhatsApp. Mahmood Lockhat confirmed that they have SMS capabilities through MTN but currently lack WhatsApp integration, suggesting they could inquire about adding that feature in the future.
+
+Infrastructure and Hosting Decisions for KZNERA System
+The team, including Sabata Mereeotlhe, Nto Vinkhumbo, and Mahmood Lockhat, agreed on the necessity of hosting the KZNERA system to facilitate performance testing and development. Sabata highlighted the importance of defining stakeholder roles, confirming responsibilities for the technical and business teams. Juliet van der Byl suggested collaboration between the technical and business teams for effective workflow management.
+* Roles and Responsibilities of Team Members
+
+Project Approach and Timelines for KZNERA System Development
+Sabata Mereeotlhe discussed the project timeline, starting with a two-week assessment phase followed by a five-week development and integration phase. The testing and validation phase is expected to take two to four weeks, influenced by the outcomes of the development phase. Additionally, a one to two-week period is allocated for deployment and training, with an optional phase for stakeholder engagement and enhanced training programs.
+* Project Overview and Objectives
+
+Emphasizing Collaboration and Communication in Project Development
+Sabata Mereeotlhe led a discussion on the project's collaborative approach, urging the team to view themselves as part of a unified group rather than outsiders. He reassured the team of their experience with similar projects and the chosen technology stack, specifically Laravel and React. Sabata emphasized the importance of clear communication and avoiding comparisons with other projects to maintain focus.
+* Communication and Collaboration Strategies
+
+KZNERA System Development Updates and Next Steps
+Luntu Ndzane raised a question about the payment gateways related to the liquor board, seeking clarification on how the finance team is handling transactions. Juliet van der Byl highlighted the need for collaboration among teams to align on the objectives for the system. Sabata Mereeotlhe acknowledged the input and proposed further discussions on technical assessments and business processes in future meetings.
+
+Scheduling Follow-Up Meeting
+Sabata Mereeotlhe initiated the scheduling of a follow-up meeting for the KZNERA system development, with Friday being the proposed day. Nto Vinkhumbo and Mahmood Lockhat confirmed their availability for Friday morning at 9 AM. Peter Thembane mentioned he would attempt to join the meeting and expressed gratitude for the collaborative effort in planning. The meeting was noted as a continuation of discussions leading to a technical review assessment.
+
+
+Action Items:
+
+* Nto Vinkhumbo will send the process flow to Sabata Mereeotlhe to provide clarity on the current system's processes.
+* Mahmood Lockhat will provide the SMS gateway settings for the development team to use during the system development.
+* Sabata Mereeotlhe will share the presentation document discussed in the previous meeting, which includes the last phase focusing on getting the system out to the people and training.
+* Sabata Mereeotlhe will compile documentation based on today's discussions to raise the bar in the next meeting.
+* Sabata Mereeotlhe will prepare a technical assessment meeting with the IT-related team and Mr. Sherwin to discuss the technical aspects of the system requirements.
+* Osunta will assist with scheduling the follow-up meeting by checking the availability of the team and proposing a suitable date.
+
+
+Key Questions:
+
+* What are the current system requirements for the new application?
+* How will the integration between the new system and the existing system be managed?
+* What are the specific pain points of the current system that need to be addressed?
+
+
+Notepad:
+
+* No notes
