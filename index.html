@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Liquor Licensing Portal - Project Update</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* KZNERA Brand Colors - UPDATE THESE WITH ACTUAL BRAND COLORS */
+            --primary-color: #003366;      /* Deep Blue - Replace with KZNERA primary */
+            --secondary-color: #0066CC;    /* Bright Blue - Replace with KZNERA secondary */
+            --accent-color: #FFB81C;       /* Gold/Yellow - Replace with KZNERA accent */
+            --text-dark: #1a1a1a;
+            --text-light: #ffffff;
+            --background-light: #f5f5f5;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background-light);
+            color: var(--text-dark);
+        }
+
+        .presentation {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .slide {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+
+        /* Title Slide */
+        .slide.title-slide {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--text-light);
+            text-align: center;
+        }
+
+        .slide.title-slide h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .slide.title-slide .subtitle {
+            font-size: 1.8em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .meeting-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        .meeting-info p {
+            font-size: 1.3em;
+            margin: 10px 0;
+        }
+
+        /* Standard Slide */
+        .slide h2 {
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+            border-bottom: 4px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+
+        .slide h3 {
+            font-size: 1.8em;
+            color: var(--secondary-color);
+            margin: 30px 0 20px;
+        }
+
+        /* Content Sections */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid var(--accent-color);
+        }
+
+        .card h4 {
+            color: var(--primary-color);
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card ul li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .card ul li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Status Indicators */
+        .status-grid {
+            display: grid;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .status-item {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .status-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .status-indicator.green {
+            background: var(--success-color);
+        }
+
+        .status-indicator.yellow {
+            background: var(--warning-color);
+        }
+
+        .status-indicator.red {
+            background: var(--danger-color);
+        }
+
+        /* Stakeholders */
+        .stakeholder-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .stakeholder {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stakeholder h4 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .stakeholder p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            margin: 30px 0;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            height: 40px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            transition: width 1s ease;
+        }
+
+        /* Timeline */
+        .timeline {
+            margin: 30px 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .timeline-date {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 5px;
+            flex: 1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Solutions Table */
+        .solutions-table {
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .solutions-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .solutions-table th {
+            background: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+
+        .solutions-table td {
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .solutions-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Navigation */
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: var(--secondary-color);
+        }
+
+        .slide-counter {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        /* Print Styles */
+        @media print {
+            .navigation, .slide-counter {
+                display: none;
+            }
+        }
+
+        .highlight-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-counter" id="slideCounter">Slide 1 of 10</div>
+
+    <div class="presentation">
+        <!-- Slide 1: Title -->
+        <div class="slide title-slide">
+            <h1>Online Liquor Licensing Portal</h1>
+            <p class="subtitle">Project Update & Progress Report</p>
+            <div class="meeting-info">
+                <p><strong>CEO Project Update Meeting</strong></p>
+                <p>📅 Date: October 24, 2025</p>
+                <p>🕐 Time: 09:00</p>
+                <p>🏢 KZNERA</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Project Overview -->
+        <div class="slide">
+            <h2>Project Overview</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h4>Project Name</h4>
+                    <p>Online Liquor Licensing Portal (OnlineLiquorPortal)</p>
+                </div>
+                <div class="card">
+                    <h4>Project Sponsor</h4>
+                    <p>SAB (South African Breweries) - Full Project Funding</p>
+                </div>
+                <div class="card">
+                    <h4>Beneficiary & Regulatory Authority</h4>
+                    <p><strong>KZNERA</strong> - KwaZulu-Natal Liquor Authority responsible for liquor licensing in KZN</p>
+                </div>
+                <div class="card">
+                    <h4>Project Objective</h4>
+                    <p>Develop a customer-facing online portal that integrates with KZNERA's internal eLMS system for public liquor license applications</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Current System Landscape -->
+        <div class="slide">
+            <h2>Current System Landscape</h2>
+            
+            <div class="card" style="margin-bottom: 30px;">
+                <h4>eLMS (Existing Liquor Management System)</h4>
+                <ul>
+                    <li>Internal system used by KZNERA staff</li>
+                    <li>Processes liquor licensing as per the Act</li>
+                    <li>Not customer-facing</li>
+                    <li>Developed and maintained by IT Related</li>
+                    <li>Backend processing and workflow management</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <h4 style="margin-top: 0;">The Need for OnlineLiquorPortal</h4>
+                <p><strong>Gap Identified:</strong> The public currently has no online access to submit liquor license applications. All applications must be submitted manually, leading to inefficiencies and service delivery challenges.</p>
+                <p style="margin-top: 10px;"><strong>Solution:</strong> Create a customer-facing portal that allows the public to submit applications online, which will integrate with the existing eLMS through APIs.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: Key Stakeholders -->
+        <div class="slide">
+            <h2>Key Stakeholders</h2>
+            <div class="stakeholder-grid">
+                <div class="stakeholder">
+                    <h4>KZNERA</h4>
+                    <p>Regulatory Authority & System Beneficiary</p>
+                </div>
+                <div class="stakeholder">
+                    <h4>SAB</h4>
+                    <p>Project Sponsor & Funder</p>
+                </div>
+                <div class="stakeholder">
+                    <h4>Joxicraft</h4>
+                    <p>Frontend Development Partner</p>
+                </div>
+                <div class="stakeholder">
+                    <h4>IT Related</h4>
+                    <p>eLMS Maintainers & API Developers</p>
+                </div>
+                <div class="stakeholder">
+                    <h4>Public/Applicants</h4>
+                    <p>End Users of Online Portal</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Project Progress -->
+        <div class="slide">
+            <h2>Project Progress Overview</h2>
+            
+            <h3>Overall Completion</h3>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 65%;">65% Complete</div>
+                </div>
+            </div>
+
+            <div class="status-grid">
+                <div class="status-item">
+                    <div class="status-indicator green"></div>
+                    <div>
+                        <strong>Requirements Gathering & Analysis</strong>
+                        <p>✓ Completed - All stakeholder requirements documented</p>
+                    </div>
+                </div>
+                <div class="status-item">
+                    <div class="status-indicator green"></div>
+                    <div>
+                        <strong>System Design & Architecture</strong>
+                        <p>✓ Completed - Technical specifications approved</p>
+                    </div>
+                </div>
+                <div class="status-item">
+                    <div class="status-indicator yellow"></div>
+                    <div>
+                        <strong>Frontend Development (Joxicraft)</strong>
+                        <p>⚠ In Progress - 80% complete, awaiting API integration</p>
+                    </div>
+                </div>
+                <div class="status-item">
+                    <div class="status-indicator red"></div>
+                    <div>
+                        <strong>API Development (IT Related)</strong>
+                        <p>🔴 Critical Bottleneck - Delays in eLMS API development</p>
+                    </div>
+                </div>
+                <div class="status-item">
+                    <div class="status-indicator red"></div>
+                    <div>
+                        <strong>Integration & Testing</strong>
+                        <p>⚠ Blocked - Dependent on API completion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Key Achievements -->
+        <div class="slide">
+            <h2>Key Achievements</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h4>✓ Frontend Development</h4>
+                    <ul>
+                        <li>User interface design completed</li>
+                        <li>Application forms developed</li>
+                        <li>Document upload functionality</li>
+                        <li>Responsive design implementation</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>✓ Infrastructure Setup</h4>
+                    <ul>
+                        <li>Development environment configured</li>
+                        <li>Cloud hosting infrastructure ready</li>
+                        <li>Security protocols established</li>
+                        <li>Database schemas designed</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>✓ Stakeholder Engagement</h4>
+                    <ul>
+                        <li>Regular coordination meetings</li>
+                        <li>SAB sponsor updates</li>
+                        <li>KZNERA requirements validation</li>
+                        <li>User experience testing sessions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>✓ Compliance & Security</h4>
+                    <ul>
+                        <li>POPIA compliance measures</li>
+                        <li>Data encryption standards</li>
+                        <li>Secure authentication protocols</li>
+                        <li>Audit trail mechanisms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Project Challenges & Bottlenecks -->
+        <div class="slide">
+            <h2>Project Challenges & Bottlenecks</h2>
+            
+            <div class="card" style="background: #f8d7da; border-left: 5px solid #dc3545; margin-bottom: 30px;">
+                <h4>🔴 Critical Bottleneck: API Development Delays</h4>
+                <p style="font-size: 1.1em; margin-top: 10px;"><strong>Primary Issue:</strong> IT Related team is experiencing significant delays in developing and delivering the API endpoints required to integrate the OnlineLiquorPortal with the existing eLMS system.</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h4>API Development Issues</h4>
+                    <ul>
+                        <li>Delayed API endpoint delivery</li>
+                        <li>Incomplete API documentation</li>
+                        <li>eLMS system modifications required</li>
+                        <li>Resource constraints at IT Related</li>
+                        <li>Testing environment unavailability</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Integration Challenges</h4>
+                    <ul>
+                        <li>Cannot proceed with integration testing</li>
+                        <li>Frontend team blocked on API endpoints</li>
+                        <li>Data mapping uncertainties</li>
+                        <li>Authentication handshake delays</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Coordination Issues</h4>
+                    <ul>
+                        <li>Communication gaps with IT Related</li>
+                        <li>Competing priorities for eLMS team</li>
+                        <li>Delayed responses to technical queries</li>
+                        <li>Limited availability for joint sessions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Timeline Impact</h4>
+                    <ul>
+                        <li>Project timeline at risk</li>
+                        <li>Testing phase cannot commence</li>
+                        <li>Deployment date uncertain</li>
+                        <li>SAB expectations management needed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Impact Analysis -->
+        <div class="slide">
+            <h2>Impact of API Bottlenecks</h2>
+            
+            <div class="card" style="margin-bottom: 30px;">
+                <h4>Timeline Impact</h4>
+                <p>The API development delays have created a critical path blockage. Frontend development is 80% complete but cannot proceed with integration testing. This creates a cascading delay affecting all subsequent phases.</p>
+            </div>
+
+            <div class="card" style="margin-bottom: 30px;">
+                <h4>Project Dependencies</h4>
+                <ul>
+                    <li><strong>Blocked:</strong> Integration testing - waiting for API completion</li>
+                    <li><strong>Blocked:</strong> End-to-end testing - requires working integration</li>
+                    <li><strong>Blocked:</strong> User Acceptance Testing - needs functional system</li>
+                    <li><strong>At Risk:</strong> Training and documentation - dependent on final system</li>
+                    <li><strong>At Risk:</strong> Deployment timeline - no confirmed date possible</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>Stakeholder Impact</h4>
+                <ul>
+                    <li><strong>SAB:</strong> Uncertainty around return on investment timeline</li>
+                    <li><strong>KZNERA:</strong> Continued reliance on manual processes</li>
+                    <li><strong>Public:</strong> Delayed access to improved licensing services</li>
+                    <li><strong>Development Teams:</strong> Resource inefficiency and morale concerns</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 9: Proposed Solutions -->
+        <div class="slide">
+            <h2>Proposed Solutions</h2>
+            <div class="solutions-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Challenge</th>
+                            <th>Proposed Solution</th>
+                            <th>Action Owner</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>API Development Delays</strong></td>
+                            <td>Escalate to IT Related management; request dedicated resources for API completion</td>
+                            <td>KZNERA CEO</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Communication Gaps</strong></td>
+                            <td>Establish mandatory weekly technical sync meetings with IT Related developers</td>
+                            <td>Project Manager</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Resource Constraints at IT Related</strong></td>
+                            <td>Request priority allocation of IT Related developers to API tasks</td>
+                            <td>KZNERA Leadership</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Testing Environment Access</strong></td>
+                            <td>Secure dedicated eLMS testing environment for integration work</td>
+                            <td>IT Related Manager</td>
+                        </tr>
+                        <tr>
+                            <td><strong>API Documentation</strong></td>
+                            <td>Require complete API documentation before proceeding with integration</td>
+                            <td>Technical Lead</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Timeline Uncertainty</strong></td>
+                            <td>Obtain firm completion dates from IT Related; revise project timeline accordingly</td>
+                            <td>Steering Committee</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Slide 10: Action Plan & Next Steps -->
+        <div class="slide">
+            <h2>Action Plan & Next Steps</h2>
+            
+            <div class="highlight-box">
+                <h4 style="margin-top: 0;">Immediate Priority: Resolve API Bottleneck</h4>
+                <p>All actions focus on unblocking the API development to enable project progression.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Week 1</div>
+                    <div class="timeline-content">
+                        <strong>Immediate Actions</strong>
+                        <ul>
+                            <li>CEO escalation to IT Related management</li>
+                            <li>Establish daily stand-ups with IT Related team</li>
+                            <li>Document all outstanding API requirements</li>
+                            <li>Set firm deadlines for API delivery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Week 2-4</div>
+                    <div class="timeline-content">
+                        <strong>API Completion Phase</strong>
+                        <ul>
+                            <li>Complete all API endpoint development</li>
+                            <li>Deliver comprehensive API documentation</li>
+                            <li>Setup and configure testing environment</li>
+                            <li>Begin integration testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Week 5-8</div>
+                    <div class="timeline-content">
+                        <strong>Integration & Testing</strong>
+                        <ul>
+                            <li>Complete portal-eLMS integration</li>
+                            <li>Conduct thorough system testing</li>
+                            <li>User acceptance testing with KZNERA</li>
+                            <li>Performance and security testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Week 9-12</div>
+                    <div class="timeline-content">
+                        <strong>Deployment Preparation</strong>
+                        <ul>
+                            <li>Finalize training materials</li>
+                            <li>Staff training sessions</li>
+                            <li>Pilot launch with selected users</li>
+                            <li>Full production deployment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Recommendations & Close -->
+        <div class="slide">
+            <h2>Recommendations for Discussion</h2>
+            
+            <div class="content-grid">
+                <div class="card">
+                    <h4>1. Executive Escalation</h4>
+                    <p>CEO to directly engage with IT Related management to prioritize API development and secure dedicated resources</p>
+                </div>
+                <div class="card">
+                    <h4>2. Enhanced Governance</h4>
+                    <p>Establish steering committee with representation from KZNERA, SAB, Joxicraft, and IT Related for weekly oversight</p>
+                </div>
+                <div class="card">
+                    <h4>3. Firm Commitments</h4>
+                    <p>Obtain written commitment from IT Related on API delivery timelines with milestone checkpoints</p>
+                </div>
+                <div class="card">
+                    <h4>4. Risk Management</h4>
+                    <p>Develop contingency plans should API delays continue beyond agreed timelines</p>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 40px; text-align: center; background: var(--primary-color); color: white; border: none;">
+                <h3 style="color: white;">Key Message to SAB</h3>
+                <p style="margin-top: 15px; font-size: 1.1em;">The project is on track from a frontend development and funding perspective. The critical bottleneck lies in the API integration layer managed by IT Related. CEO intervention is required to unblock this dependency.</p>
+            </div>
+
+            <div class="card" style="margin-top: 30px; background: var(--secondary-color); color: white; text-align: center;">
+                <h3>Questions & Discussion</h3>
+                <p style="margin-top: 20px; font-size: 1.2em;">Thank you for your attention</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+        <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(n) {
+            slides[currentSlide].style.display = 'none';
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].style.display = 'flex';
+            document.getElementById('slideCounter').textContent = `Slide ${currentSlide + 1} of ${totalSlides}`;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                previousSlide();
+            }
+        });
+
+        // Initialize
+        showSlide(0);
+    </script>
+</body>
+</html>
