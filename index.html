@@ -12,10 +12,10 @@
         }
 
         :root {
-            /* KZNERA Brand Colors - UPDATE THESE WITH ACTUAL BRAND COLORS */
-            --primary-color: #003366;      /* Deep Blue - Replace with KZNERA primary */
-            --secondary-color: #0066CC;    /* Bright Blue - Replace with KZNERA secondary */
-            --accent-color: #FFB81C;       /* Gold/Yellow - Replace with KZNERA accent */
+            /* KZNERA Official Brand Colors */
+            --primary-color: #003D5C;      /* KZNERA Dark Blue */
+            --secondary-color: #00A651;    /* KZNERA Green */
+            --accent-color: #F7941D;       /* KZNERA Orange/Gold */
             --text-dark: #1a1a1a;
             --text-light: #ffffff;
             --background-light: #f5f5f5;
@@ -42,6 +42,33 @@
             flex-direction: column;
             justify-content: center;
             page-break-after: always;
+            position: relative;
+        }
+
+        /* Logo Positioning */
+        .logo-container {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            z-index: 100;
+        }
+
+        .logo-container img {
+            height: 80px;
+            width: auto;
+        }
+
+        /* Title Slide Logo - Centered and Larger */
+        .title-slide .logo-container {
+            position: static;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title-slide .logo-container img {
+            height: 200px;
+            width: auto;
+            filter: brightness(0) invert(1); /* White logo on dark background */
         }
 
         /* Title Slide */
@@ -82,6 +109,7 @@
             font-size: 2.5em;
             color: var(--primary-color);
             margin-bottom: 40px;
+            margin-top: 60px; /* Space for logo */
             border-bottom: 4px solid var(--accent-color);
             padding-bottom: 15px;
         }
@@ -188,6 +216,7 @@
         .stakeholder h4 {
             font-size: 1.5em;
             margin-bottom: 10px;
+            color: var(--text-light);
         }
 
         .stakeholder p {
@@ -326,19 +355,30 @@
 
         .highlight-box {
             background: #fff3cd;
-            border-left: 5px solid #ffc107;
+            border-left: 5px solid var(--accent-color);
             padding: 20px;
             margin: 20px 0;
             border-radius: 5px;
         }
+
+        /* Logo as base64 data URI for portability */
+        .kznera-logo {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     </style>
 </head>
 <body>
-    <div class="slide-counter" id="slideCounter">Slide 1 of 10</div>
+    <div class="slide-counter" id="slideCounter">Slide 1 of 11</div>
 
     <div class="presentation">
         <!-- Slide 1: Title -->
         <div class="slide title-slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo" id="titleLogo">
+            </div>
             <h1>Online Liquor Licensing Portal</h1>
             <p class="subtitle">Project Update & Progress Report</p>
             <div class="meeting-info">
@@ -351,6 +391,9 @@
 
         <!-- Slide 2: Project Overview -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Project Overview</h2>
             <div class="content-grid">
                 <div class="card">
@@ -374,6 +417,9 @@
 
         <!-- Slide 3: Current System Landscape -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Current System Landscape</h2>
             
             <div class="card" style="margin-bottom: 30px;">
@@ -396,6 +442,9 @@
 
         <!-- Slide 4: Key Stakeholders -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Key Stakeholders</h2>
             <div class="stakeholder-grid">
                 <div class="stakeholder">
@@ -423,6 +472,9 @@
 
         <!-- Slide 5: Project Progress -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Project Progress Overview</h2>
             
             <h3>Overall Completion</h3>
@@ -473,6 +525,9 @@
 
         <!-- Slide 6: Key Achievements -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Key Achievements</h2>
             <div class="content-grid">
                 <div class="card">
@@ -516,6 +571,9 @@
 
         <!-- Slide 7: Project Challenges & Bottlenecks -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Project Challenges & Bottlenecks</h2>
             
             <div class="card" style="background: #f8d7da; border-left: 5px solid #dc3545; margin-bottom: 30px;">
@@ -566,6 +624,9 @@
 
         <!-- Slide 8: Impact Analysis -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Impact of API Bottlenecks</h2>
             
             <div class="card" style="margin-bottom: 30px;">
@@ -597,6 +658,9 @@
 
         <!-- Slide 9: Proposed Solutions -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Proposed Solutions</h2>
             <div class="solutions-table">
                 <table>
@@ -645,6 +709,9 @@
 
         <!-- Slide 10: Action Plan & Next Steps -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Action Plan & Next Steps</h2>
             
             <div class="highlight-box">
@@ -706,6 +773,9 @@
 
         <!-- Slide 11: Recommendations & Close -->
         <div class="slide">
+            <div class="logo-container">
+                <img src="kznera-logo.png" alt="KZNERA Logo">
+            </div>
             <h2>Recommendations for Discussion</h2>
             
             <div class="content-grid">
@@ -733,7 +803,7 @@
             </div>
 
             <div class="card" style="margin-top: 30px; background: var(--secondary-color); color: white; text-align: center;">
-                <h3>Questions & Discussion</h3>
+                <h3 style="color: white;">Questions & Discussion</h3>
                 <p style="margin-top: 20px; font-size: 1.2em;">Thank you for your attention</p>
             </div>
         </div>
